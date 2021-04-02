@@ -31,14 +31,14 @@
 
 # Basic Introduction
 
-- **Wisper** use **pypsexec** library of python to interact with target system and run command on that system
+- **Wisper** use **pypsexec** library of python to interact with target system and run command on that
 - Provided user should have **Administrator** privilages
 - Best part is **Antivirus does not pick this up**
 - Wisper install and enable **Openssh Server** and configure it to run on startup
 - Wisper enable **RDP** and configure the firewall for RDP And SSH 
 - It **Disables RealTime Monitoring and Firewall**
 - Also **Disable UAC and Bypass Powershell Execution Policy**
-- Another cool feature is WisPer **gather all possible credentials** on target machine
+- Another cool feature is, WisPer **gather all possible credentials** on target machine
 - After everthing is done or something broke down inbetween, **Wisper automatically cleans up everthing**   
 
 # Help
