@@ -22,10 +22,24 @@
                                                                version - 1.00
                               
 ```
+ 
+\
+**Wisper** helps to maintain access to a windows machine and have some other cool features like UAC Disabe,Firewall Disable,Dumping Credentials,etc.
 
-Wisper helps to maintain access to a windows machine and have some other cool features like UAC Disabe,Firewall Disable,Dumping Credentials,etc.
 
 ![](images/screenshot.png)
+
+# Basic Introduction
+
+- **Wisper** use **pypsexec** library of python to interact with target system and run command on that system
+- Provided user should have **Administrator** privilages
+- Best part is **Antivirus does not pick this up**
+- Wisper install and enable **Openssh Server** and configure it to run on startup
+- Wisper enable **RDP** and configure the firewall for RDP And SSH 
+- It **Disables RealTime Monitoring and Firewall**
+- Also **Disable UAC and Bypass Powershell Execution Policy**
+- Another cool feature is WisPer **gather all possible credentials** on target machine
+- After everthing is done or something broke down inbetween, **Wisper automatically cleans up everthing**   
 
 # Help
 
@@ -36,3 +50,20 @@ Wisper helps to maintain access to a windows machine and have some other cool fe
  > -h or --help       ➤ To Show Below Message
  
  ![](images/help.png)
+ 
+ # Supported Windows Versions
+ 
+  - Windows 10
+  - Windows 8
+  - Windows 7
+  - Windows Server(Above 2008 R2)
+
+**If you want to help with any of this, you can do it using github issues or you can submit a pull request.**
+
+## Advisory
+
+WisPer should be used for authorized penetration testing and/or educational purposes only. Any misuse of this software will not be the responsibility of the author or of any other collaborator. Use it at your own networks and/or with the network owner's permission.
+
+## License
+
+MIT License
