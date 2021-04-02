@@ -23,9 +23,7 @@
                               
 ```
 
-# Introduction
-
-WisPer helps to automate the task of preparing a windows system for maintaining access of a hacker using ssh and rdp with some additions functionality like dumping credentials,UAC bypass,disabling firewall,etc.
+Wisper helps to maintain access to a windows machine and have some other cool features like UAC Disabe,Firewall Disable,Dumping Credentials,etc.
 
 ![](images/screenshot.png)
 
