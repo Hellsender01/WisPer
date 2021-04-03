@@ -25,7 +25,7 @@ print(f"""{Fore.BLUE}
                                                                
 {Style.RESET_ALL}""")
 
-parser = ArgumentParser(epilog=f"Example: {argv[0]} 192.168.101.14 admin P@$$w0rd123",description="Wisper helps to maintain access to windows machine and have some other cool features like UAC Disabe,Firewall Disable,Dumping Credentials,etc.")
+parser = ArgumentParser(epilog=f"Example: {argv[0]} 192.168.101.14 admin P@$$w0rd123",description="Wisper helps to maintain access to windows machine and have some other cool features like UAC Disable,Firewall Disable,Dumping Credentials,etc.")
 parser.add_argument('-t','--target',dest="target",help='Target To Exploit')
 parser.add_argument('-p','--password',dest="password",help='Password To Login')
 parser.add_argument('-u','--user',dest="user",help='Username To Login')
