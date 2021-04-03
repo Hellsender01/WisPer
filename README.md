@@ -24,7 +24,7 @@
 ```
  
 \
-**Wisper** helps to maintain access to windows machine and have some other cool features like UAC Disabe,Firewall Disable,Dumping Credentials,etc.
+**Wisper** helps to maintain access to windows machine and have some other cool features like UAC Disable,Firewall Disable,Dumping Credentials,etc.
 
 
 ![](images/screenshot.png)
